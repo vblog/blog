@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>As247 - Loading...</title>
+    <script type="text/javascript"> 
+        var url = 'http://www.theanh.vui360.com/blog/';
+			function closeWindow()
+		{
+			window.open('','_parent',''); 
+			window.close();
+		}
+		var timeOut=4;
+		var waitTime=5;
+		var timeOutErr=timeOut+waitTime,iii=0;
+		function onLoadTimeout(){
+			setTimeout(onLoadTimeout,1000);
+			iii++;
+			if(iii>timeOutErr){
+				var d=document;
+				d.getElementById("loadingError").style.display="";
+				d.getElementById("as247-main").style.display="none";
+			}
+		}
+		onLoadTimeout();
+    </script>
+    <style type="text/css">
+    <!--
+        .proccess {
+            background: #ffffff;
+            margin: 3px; 
+            border: solid 1px;
+            height: 8px;
+            width: 8px
+        }
+		#loadingError{
+			margin-left:10px;
+		}
+        body {
+			background: #f0f0f0;
+	        margin: 0px;
+        }
+		a {
+			color:#3B5998;
+			text-decoration:none;
+		}
+        td { font-family: Tahoma, Arial, Verdana; font-size: 10pt; }
+    -->
+    </style>
+<META NAME="keywords" CONTENT="As247, The Anh, The Anh's Blog, TheAnh, The Anh 's Blog, Blog, Tên thật: Lại Thế Anh, Blog, Blog của Lại Thế Anh, As*** - As247, As***, theanh.vui360.com, theanh@vui360.com, Thái Bình, Kiến Xương, Vũ Ninh, As247, Email: asvn89@gmail.com  , Y!M: as_3345,">
+<META NAME="description" CONTENT="Tên thật: Lại Thế Anh, Blog, Blog của Lại Thế Anh, As*** - As247, As***, theanh.vui360.com, theanh@vui360.com, Thái Bình, Kiến Xương, Vũ Ninh, As247, Email: asvn89@gmail.com  , Y!M: as_3345, Sinh nhật: 02/06/1989 ,  Sở thích: Game: game gì cũng thích, game gì cũng muốn chơi, nhưng chẳng bao giờ chơi giỏi :D , Film: kinh dị  , hài, hành động, yêu CNTT nhưng thích nghịch đồ điện tử, thích được tụ tập cùng các anh em, và… , nói chung là thích nhiều thứ , K52CC, K52C3, Đại học công nghệ , Đại học quốc gia Hà Nội.">
+<META NAME="abstract" CONTENT="As247">
+<META NAME="author" CONTENT="as247@vui360.com">
+<META NAME="distribution" CONTENT="Global">
+<META NAME="revisit-after" CONTENT="1 days">
+<meta name="verify-v1" content="rwZQO2KRmv1wk1G+1ZAlg31+yOmxfmgipjY7I5/kWDQ="/>
+</head>
+<body onload="location.href = url;" style="overflow: hidden; overflow-y: hidden;">
+<div id="loadingError" class="cmsg" style="clear:left;display:none;"> 
+<p style="font-size:larger;margin:40px 0">Quá trình này mất nhiều thời gian hơn bình thường. 
+Tiếp tục chờ đợi hoặc <a href="" onclick="window.reload()"><b>Thử tải lại trang web</b></a>.</p> 
+<div>Nếu cách này không hoạt động, bạn có thể:
+<ol>
+ <li><a href="#" onclick="closeWindow();">Tắt trình duyệt và thử lại</a>. <li>Nếu bạn đang sử dụng đường truyền kết nối chậm, hãy thử <a href="/as247">chế độ xem Ajax</a>.
+</ol> </div> </div> 
+<div align="center" id="as247-main">
+  <table align="center" height="70%" valign="middle">
+    <tbody>
+      <tr>
+        <td align="middle"><p></p>
+          <!--  displaytext-->
+          Đang tải As247...
+          <!--end displaytext-->
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <div align="center">
+            <form method="post" name="proccess" action="">
+              <script type="text/javascript">
+                   for(i=0;i<30;i++) { document.write("<input class=proccess>"); }
+              </script>
+            </form>
+			<FORM name=loading>
+<INPUT 
+      style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; COLOR: #000000; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #f0f0f0; TEXT-ALIGN: center" 
+      size=47 name=percent><BR></FONT><INPUT 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bolder; PADDING-BOTTOM: 0px; COLOR: lightskyblue; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; FONT-FAMILY: Arial; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM-STYLE: none" 
+      size=45 name=chart><BR>
+	   <SCRIPT> 
+				var bar=0 
+				var line="|" 
+				var tpp=timeOut*10
+				var amount="" 
+				count() 
+				function count(){ 
+				bar=bar+1 
+				amount =amount + line 
+				document.loading.chart.value=amount 
+				document.loading.percent.value=bar+"%" 
+				if (bar<99) 
+				{setTimeout("count()",tpp);} 
+				
+				}
+      </SCRIPT>
+	  
+	  
+	  </FORM>
+          </div></td>
+      </tr>
+    </tbody>
+  </table>
+  <div align="center">
+    <script  type="text/javascript">
+    <!--
+        var p = 0, j = 0;
+        var c = new Array("lightskyblue","white");
+        setInterval("proccess();", 100)
+        function proccess(){
+            document.forms.proccess.elements[p].style.background=c[j];
+            p+=1;
+            if(p==30) { p=0; j=1-j; }
+        }
+    -->
+    </script>
+  </div>
+</div>
+<div align="center">
+    <script type="text/javascript">
+    <!--
+        if (document.layers) 
+            document.write('<layer src="' + url + ' " visibility="hide"> </layer>'); 
+        else  
+            document.write('<iframe src="' + url + '" style="visibility: hidden;"></iframe>'); 
+       
+    -->
+    </script>
+</div>
+</body>
+</html>
